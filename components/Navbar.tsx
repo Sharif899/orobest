@@ -23,6 +23,9 @@ export default function Navbar() {
     { label: "HOW IT WORKS", href: "#how-it-works" },
     { label: "SCENARIOS", href: "#scenarios" },
     { label: "SIMULATION", href: "#simulation" },
+    { label: "MARKET", href: "#market-analysis" },
+    { label: "USE CASES", href: "#use-cases" },
+    { label: "PRIVACY", href: "#privacy" },
     { label: "FAQ", href: "#faq" },
   ];
 
