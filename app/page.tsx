@@ -10,7 +10,6 @@ import Comparison from "@/components/sections/Comparison";
 import MarketAnalysis from "@/components/sections/MarketAnalysis";
 import UseCases from "@/components/sections/UseCases";
 import DataPrivacy from "@/components/sections/DataPrivacy";
-import TokenEconomics from "@/components/sections/TokenEconomics";
 import PracticalAnalysis from "@/components/sections/PracticalAnalysis";
 import FAQ from "@/components/sections/FAQ";
 import Footer from "@/components/sections/Footer";
@@ -25,7 +24,6 @@ export default function Home() {
     els.forEach((el) => obs.observe(el));
     return () => obs.disconnect();
   }, []);
-
   return (
     <>
       <Navbar />
@@ -39,7 +37,6 @@ export default function Home() {
         <MarketAnalysis />
         <UseCases />
         <DataPrivacy />
-        <TokenEconomics />
         <PracticalAnalysis />
         <FAQ />
       </main>
